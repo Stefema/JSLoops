@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Loops</title>
+  </head>
+  <body>
+    <script>
+      let array = [2, 8, 25, 65, 85];
+      let sum = 0;
+      for (let i = 0; i < array.length; i++) {
+        sum = sum + array[i];
+      }
+      console.log(sum);
+      let mediaAritmetica = sum / array.length;
+      console.log(mediaAritmetica);
+
+
+
+
+      
+      let array2 = [2, 5, 80, 60, "Ion", "Maria", true, false];
+      let suma = 0;
+      for (let i = 0; i < array2.length; i++) {
+        if (typeof array2[i] === "number") {
+          suma = suma + array2[i];
+        }
+      }
+      console.log(suma);
+    </script>
+  </body>
+</html>
